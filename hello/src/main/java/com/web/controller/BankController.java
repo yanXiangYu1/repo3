@@ -23,5 +23,6 @@ public class BankController {
         bankService.addMoney();
         response.setContentType("text/html;charset=utf-8");
         response.getWriter().write("转账成功!");
+		System.out.println("哈哈哈哈哈");
     }
 }
